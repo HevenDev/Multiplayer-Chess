@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Specify ECMAScript target version */
+    "target": "ES2020",
+
+    /* Enable use of define for class fields (recommended for modern JavaScript) */
+    "useDefineForClassFields": true,
+
+    /* Specify library files to be included during compilation */
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    /* Module system for ESNext (suitable for modern bundlers like Vite) */
+    "module": "ESNext",
+
+    /* Skip type checking of declaration files for faster builds */
+    "skipLibCheck": true,
+
+    /* Bundler-related settings */
+    "moduleResolution": "Bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* JSX transformation for React (modern JSX runtime) */
+    "jsx": "react-jsx",
+
+    /* Enable incremental compilation for faster rebuilds */
+    "incremental": true,
+    "tsBuildInfoFile": "./.cache/tsconfig.app.tsbuildinfo",
+
+    /* Linting and type-checking settings */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
