@@ -18,7 +18,7 @@ Setup Instructions
 
 **Clone the repository:**
 
-git clone https://github.com/yourusername/chess-multiplayer.git
+git clone https://github.com/HevenDev/Multiplayer-Chess
 cd chess-multiplayer
 
 **Install dependencies:**
